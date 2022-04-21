@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const postStateSchema = new mongoose.Schema({
+const postStateSchema = new Schema({
     username: String,
     ref: mongoose.Schema.Types.ObjectId,
     vote: {
@@ -13,4 +14,4 @@ const postStateSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('PostState', postStateSchema, "postStates");
+module.exports = PostState = mongoose.model('PostState', postStateSchema, "PostStates");

@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const profileSchema = new mongoose.Schema({
+const profileSchema = new Schema({
     username: String,
     karma_post: {
         type: Number,
@@ -16,4 +17,4 @@ const profileSchema = new mongoose.Schema({
     owned: Array
 });
 
-module.exports = mongoose.model('Profile', profileSchema);
+module.exports = Profile = mongoose.model('profile', profileSchema);

@@ -18,7 +18,7 @@
                 <%- include('../partials/sort') %>
 
 
-                <% if (posts != undefined) { 
+                <% if (posts.length > 0) { 
                     posts.forEach((post) => { %>
             <article class="post" data-ref="<%= post._id %>">
                 <div class="arrows">

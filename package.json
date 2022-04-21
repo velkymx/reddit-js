@@ -13,15 +13,15 @@
   "author": "velkymx",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.0",
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
-    "ejs-lint": "^0.3.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1",
+    "ejs": "^3",
+    "ejs-lint": "^1",
     "express": "^4.16.3",
-    "express-session": "^1.15.6",
+    "express-session": "^1",
     "moment": "^2.22.2",
-    "mongoose": "^5.2.14",
-    "passport": "^0.4.0",
-    "validator": "^10.7.1"
+    "mongoose": "^6.3",
+    "passport": "^0.5",
+    "validator": "^13"
   }
 }

@@ -2,7 +2,7 @@
     <h4 class="text-center">Subscribed (<%=subscribed.length %>)</h4>
     <table class="table table-striped">
         <tbody>
-    <% if (subscribed != undefined) { %>
+    <% if (subscribed !== false) { %>
         <% subscribed.forEach((s) => { %>
             <tr>
             <td><a href="/r/<%= s %>">/r/<%= s %></a></td>

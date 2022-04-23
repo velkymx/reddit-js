@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
-const commentStateSchema = new mongoose.Schema({
+const commentStateSchema = new Schema({
     username: String,
     ref: mongoose.Schema.Types.ObjectId,
     vote: {
@@ -13,4 +14,5 @@ const commentStateSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('CommentState', commentStateSchema, "commentStates");
+
+module.exports = CommentState = mongoose.model('CommentState', commentStateSchema, "CommentStates");
